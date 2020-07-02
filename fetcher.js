@@ -13,4 +13,4 @@ request(process.argv[2], (error, response, body) => {
     if (err) return console.log(err);
     console.log(`Downloaded and saved ${bytesSize} bytes to ${process.argv[3]}`); //this needs to be changed to what the assignment wants
   });
-});
+}); 
